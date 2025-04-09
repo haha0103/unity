@@ -1,5 +1,6 @@
 # unity
 File save as에다가 Scene있는데 거기에 저장을 해줘야함
+object를 클릭하면 밑에 Add component가 있는데 맨밑에 있는 new뭐시기를 해줘야함
 일시정지나 실행중에 저장을 하면 저장이 안됨
 확인하기!!
 
