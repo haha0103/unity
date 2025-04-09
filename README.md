@@ -12,3 +12,7 @@ Application.targetFrameRate = 60; 프레임 수
 Update 매 프레임 마다 실행
 transform.Rotate(0, 0, 10);<-(X축,Y축,Z축)
 2D이니 Z축으로 돌리기
+
+ if(Input.GetMouseButtonDown(0))
+ if 0(좌클릭 1은 우클릭임)이 되면 간다
+ float는 소수점 포함 상수형 그래서 값 뒤에 F,f를 붙여줘야함
