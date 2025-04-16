@@ -16,7 +16,7 @@ Update 매 프레임 마다 실행
 transform.Rotate(0, 0, 10);<-(X축,Y축,Z축)
 2D이니 Z축으로 돌리기
 
- if(Input.GetMouseButtonDown(0))
+ if(Input.GetMouseButtonDown(0))//마우스 누룰 때
  if 0(좌클릭 1은 우클릭임)이 되면 간다
  float는 소수점 포함 상수형 그래서 값 뒤에 F,f를 붙여줘야함】】
 
@@ -29,8 +29,10 @@ transform.Rotate(0, 0, 10);<-(X축,Y축,Z축)
 
  float lengt = this.flag.transform.position.x - this.car.transform.position.x;
   //flag의 x값-car의 x값
-
+//using TMPro;이거 추가해야 ↓오류 안뜸
  this.distance.GetComponent<TextMeshProUGUI>().text = "Distance:" + lengt.ToString("F2") + "M";
                                          //Distance:lengt(flag의 x값-car의 x값).소수점두째자리까지M
-
-】】
+Vector2 starpos;
+//2차원 변수이름 (x,y값을 넣을 수 있음 {3차원은 Vector3})
+(Input.GetMouseButtonUp(0))//마우스를 때는 순간
+GetComponent<AudioSource>().Play();】】
