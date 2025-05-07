@@ -36,3 +36,7 @@ Vector2 starpos;
 //2차원 변수이름 (x,y값을 넣을 수 있음 {3차원은 Vector3})
 (Input.GetMouseButtonUp(0))//마우스를 때는 순간
 GetComponent<AudioSource>().Play();】】
+
+ //셋쨋날
+ 【【 】】
+
